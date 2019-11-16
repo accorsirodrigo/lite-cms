@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/testapis",
+      "handler": "Testapi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/testapis/count",
+      "handler": "Testapi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/testapis/:id",
+      "handler": "Testapi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/testapis",
+      "handler": "Testapi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/testapis/:id",
+      "handler": "Testapi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/testapis/:id",
+      "handler": "Testapi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

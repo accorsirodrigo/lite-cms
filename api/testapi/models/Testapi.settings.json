@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "testapi",
+  "info": {
+    "name": "testapi",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ]
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Save": {
+      "type": "boolean"
+    }
+  }
+}
